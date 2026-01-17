@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://bookhive.app/favicon.png" width="200" />
+  <img alt="Logo" src="https://bookhive-web.vercel.app/favicon.jpeg" width="200" />
 </div>
 
 # BookHive – E-commerce
@@ -9,7 +9,7 @@ BookHive é um e-commerce moderno e responsivo de livros, focado em **front-end 
 > 🚧 Em desenvolvimento — novas seções e funcionalidades estão sendo implementadas.
 
 ## 🔗 Preview
-🌐 Aplicação disponível em produção: [Acessar](https://bookhive.vercel.app/)   
+🌐 Aplicação disponível em produção: [Acessar](https://bookhive-web.vercel.app/)   
 
 <sub>Deploy contínuo e monitoramento de performance via Vercel.</sub>
 
