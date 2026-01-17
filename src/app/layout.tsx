@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Toaster } from "sonner";
 import "./globals.css";
 
@@ -15,9 +16,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Dryelle Ebelin" }],
   creator: "Dryelle Ebelin",
-  metadataBase: new URL("https://bookhive.vercel.app"),
+  metadataBase: new URL("https://bookhive-web.vercel.app"),
   icons: {
-    icon: "/favicon.png"
+    icon: "/favicon.jpeg"
   }
 };
 
@@ -32,6 +33,7 @@ export default function RootLayout({
         className="antialiased"
       >
         {children}
+        <Analytics />
         <Toaster richColors position="top-right" expand={false} />
       </body>
     </html>
