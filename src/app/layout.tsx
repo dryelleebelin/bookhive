@@ -3,6 +3,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { Toaster } from "sonner";
 import "./globals.css";
 
+import Navbar from "../components/layout/Navbar";
+
 export const metadata: Metadata = {
   title: "BookHive | E-commerce de Livros",
   description:
@@ -32,9 +34,12 @@ export default function RootLayout({
       <body
         className="antialiased"
       >
+        <Navbar />
+
         {children}
-        <Analytics />
+
         <Toaster richColors position="top-right" expand={false} />
+        <Analytics />
       </body>
     </html>
   );
