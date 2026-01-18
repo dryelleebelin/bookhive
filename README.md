@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://bookhive-web.vercel.app/favicon.jpeg" width="200" />
+  <img alt="Logo" src="https://bookhive-web.vercel.app/favicon.jpeg" width="100" />
 </div>
 
 # BookHive – E-commerce
@@ -17,6 +17,7 @@ BookHive é um e-commerce moderno e responsivo de livros, focado em **front-end 
 
 - React + Next.js + TypeScript
 - Tailwind CSS para design responsivo
+- Framer Motion para animações e micro-interações
 - Jest + Testing Library para testes unitários e de componentes
 - CI/CD automatizado com Vercel
 - Integração com APIs públicas de livros
